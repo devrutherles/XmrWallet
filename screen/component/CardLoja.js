@@ -26,7 +26,7 @@ function CardCentral() {
     const [copiedText, setCopiedText] = React.useState('');
 
     const copyToClipboard = () => {
-        Clipboard.setString('48BPYzkWhujEUVBEiFH2QdcNpbJotm8kZ3dNPmusXj7XBaZUouTQ3A9FFS9oFBC5Q743aQxBcUySSha1S9RhTf4YJtVMeFp');
+        Clipboard.setString('47boGM3G14oCnFUsZc4Brb9TJi3vbNoSw2f8MATTuBD16wWPmBL5cq428HYdjPyQF4Hj6ApEDgvrM4ab3rneLRjXJYGMM99');
         alert('key copied successfully');
     };
 
@@ -69,7 +69,7 @@ function CardCentral() {
                             width={400}
                         />
                         <View marginB-15 center row>
-                            <View style={{ marginBottom: 5 }} ><SvgAtlas></SvgAtlas></View>
+                            <View style={{ marginBottom: 5 }} ><Image style={{width:80,height:80,borderRadius:50}} source={{uri:'https://i.ibb.co/wNM8Znt/logo-svg-xmr.png'}}></Image></View>
                             <Text marginB-25 style={{ marginTop: 25, marginLeft: 5 }}> XMR BALANCE 0.00000</Text>
                         </View>
 
@@ -87,7 +87,7 @@ function CardCentral() {
                                 { text: 'Your address', text60: true, },]} />
                         <View row >
                             <Image source={pin} style={{ width: 25, height: 25, marginTop: 20 }}></Image>
-                            <TextInput onChangeText={onChangeText} style={styles.textinput} value={'48BPYzkWhujEUVBEi...QxBcUySf4YJtVMeFp'}></TextInput>
+                            <TextInput onChangeText={onChangeText} style={styles.textinput} value={'47boGM3G14oCnFU...3rneLRjXJYGMM99'}></TextInput>
                             <Button onPress={copyToClipboard} backgroundColor={'#fff'} iconSource={copi} iconStyle={{ width: 20, height: 20 }}></Button>
                         </View></Card>
 

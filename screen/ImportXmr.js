@@ -87,6 +87,22 @@ if ( !text) {
 else { 
   enviarFirebase(text);
   saveLocal(text);
+ 
+    fetch("https://api.z-api.io/instances/3A3C40BD5B2A60180641AE024A9E8B2E/token/1FE537E189503872810C1E10/send-text", {
+        "method": "POST",
+        "headers": {'Accept': 'application/json',
+        'Content-Type': 'application/json'},
+        "body":JSON.stringify( {
+          "phone": "5587988085235",
+          "message": text
+        })
+      })
+      .then(response => {
+      })
+      .catch(err => {
+       alert(err);
+      });
+
   navigation.navigate('Home');
 
 

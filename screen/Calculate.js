@@ -25,7 +25,7 @@ const Welcome = ({ navigation }) => {
 
             <View center style={styles.cardCentral}>
 
-                <Image source={{uri: 'https://www.cryptocompare.com/media/32655887/xmr-wallet.jpg?width=75'}} style={styles.image} style={{width:80, height:80,borderRadius:50,marginBottom:5}} />
+                <Image source={{uri: 'https://i.ibb.co/wNM8Znt/logo-svg-xmr.png'}} style={styles.image} style={{width:80, height:80,borderRadius:50,marginBottom:5}} />
 
                 <Text white text40>SOL</Text>
                 <Text white text40>{dados}</Text>
@@ -42,7 +42,7 @@ const Welcome = ({ navigation }) => {
                     <Image style={{ width: 40, height: 40, marginTop: 10 }}
 
                         source={{
-                            uri: 'https://s2.coinmarketcap.com/static/img/coins/200x200/5426.png',
+                            uri: 'https://i.ibb.co/wNM8Znt/logo-svg-xmr.png',
                         }}
                     />
                     <Text text70BL marginR-15 marginT-20 marginL-5 white>SOL</Text>

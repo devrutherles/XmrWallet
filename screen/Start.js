@@ -3,9 +3,8 @@ import { Animated, ScrollView, StyleSheet, Dimensions, ImageBackground } from 'r
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Image } from "react-native-expo-image-cache";
 import { BlurView } from 'expo-blur';
-import Logo from './component/Svgatlas'
 import SvgAtlas from './component/Logosvg';
-
+import Logo from './component/Logo'
 import {
   View, Text, Button, Colors,Typography
 } from 'react-native-ui-lib';
@@ -38,8 +37,7 @@ function App({ navigation }) {
         <View flex-1>
 
           <View flex-1 style={{ alignSelf: 'center', alignItems: 'center', marginTop: 40 }}>
-            <SvgAtlas />
-
+            <Logo></Logo>
           </View>
           <View marginB-15><Text style={{ textAlign: 'center' }} text60 color={'#fff'}>Secure Monero Wallet</Text></View>
           <View padding-5 marginB-30><Text text70 style={{ textAlign: 'center' }} color={'#fff'}>Send and receive Monero instantly using XMRWallet.</Text></View>
